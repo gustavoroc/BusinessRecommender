@@ -1,6 +1,6 @@
-export enum BusinessChanell 
+export enum BusinessChannel
 {
     Online,
     Offline,
-    Hibrid
+    Hybrid
 }
