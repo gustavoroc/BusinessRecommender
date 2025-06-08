@@ -1,10 +1,10 @@
 import { BusinessTarget } from './Type/BusinessTarget';
-import { BusinessChanell } from './Type/BusinessChannel';
+import { BusinessChannel } from './Type/BusinessChannel';
 import { BusinessSaleMethodology } from './Type/BusinessSaleMethodology';
 
-export class BusinessLead 
+export class BusinessLead
 {
-    public TargetRelationship:  { count: Number, target: BusinessTarget }
-    public ChannelRelationship: { count: Number, channel: BusinessChanell }
-    public SalesMethodology:    { count: Number, methodology: BusinessSaleMethodology }
+    public TargetRelationship!:  { count: Number, target: BusinessTarget };
+    public ChannelRelationship!: { count: Number, channel: BusinessChannel };
+    public SaleMethodology!:    { count: Number, methodology: BusinessSaleMethodology };
 }
